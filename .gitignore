@@ -1,0 +1,33 @@
+# 依赖
+node_modules/
+vendor/
+
+# 密钥 & 环境配置
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 构建输出
+dist/
+build/
+out/
+*.log
+
+# 缓存
+.cache/
+__pycache__/
+*.pyc
